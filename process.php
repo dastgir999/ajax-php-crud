@@ -73,15 +73,6 @@ if ($_POST['action'] == 'get_user') {
     echo json_encode($user);
 }
 
-// Update User
-if ($_POST['action'] == 'update') {
-    $id = $_POST['id'];
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $gender = $_POST['gender'];
-    $country = $_POST['country'];
-   
-}
 
 ?>
 
